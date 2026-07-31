@@ -7,7 +7,7 @@ class Author(models.Model):
 
     def __str__(self):
         return self.name
-
+# test branch change
 
 class Book(models.Model):
     title = models.CharField(max_length=200)
