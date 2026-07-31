@@ -6,7 +6,9 @@ class Author(models.Model):
     bio = models.TextField(blank=True)
 
     def __str__(self):
-        return self.name# change from dipesh
+
+        return self.name# change from dipesh # change from prajwal
+
 # test branch change
 
 class Book(models.Model):
